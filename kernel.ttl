@@ -1,0 +1,101 @@
+@prefix : <http://purl.org/dcx/kernel/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix schema: <http://schema.org/> .
+@prefix vann: <http://purl.org/vocab/vann/> .
+
+:who 
+   rdfs:label "h1"@en ; 
+   rdfs:comment "An entity responsible for expressing the object, such as creating it or making it available."@en ;
+   dcterms:description "Examples of \"who\" include a person, an organization, or a service. 
+   vann:usageNote "DC Mapping: Creator, but if no Creator use Publisher, and if no Publisher, use Contributor."@en .
+   
+:what
+   rdfs:label "h2"@en ;
+   rdfs:comment "A human-oriented name given to the resource, or what this \"telling\" of the resource was called."@en ;
+   dcterms:description "Compared to the \"where\" element, which is also a kind of name, the \"what\" element tends to be more suitable fr human consumption."@en ; 
+   vann:usageNote "DC Mapping: Title"@en .
+      
+:when
+   rdfs:label "h3"@en ;
+   
+:where
+   rdfs:label "h4"@en ;
+   
+:how
+   rdfs:label "h5" ;
+   
+:why
+   rdfs:label "h6 ;
+   
+:about-erc
+   rdfs:label "h10" ;   
+    
+:about-who
+   rdfs:label "h11" ;
+   rdfs:comment "A name of a personage that is the topic of the resource."@en .
+   
+"about-what
+   rdfs:label "h12" ; 
+   rdfs:comment "A topic of the resource."@en ;
+   vann:usageNote "DC Mapping. Subject.@en .
+          
+:about-when 
+   rdfs:label "h13" ;
+   rdfs:comment "A temporal topic of the resource."@en ;
+   vann:usageNote "DC Mapping: Coverage (Temporal)"@en .
+   
+:about-where 
+   rdfs:label "h14" ;
+   rdfs:comment "A spatial topic of th resource."@en ;
+   vann:usageNote ""@en .
+   
+:about-how
+   rdfs:label "h15" ;
+   
+:meta-erc
+   rdfs:label "h30" ;   
+   
+:meta-who
+   rdfs:label "h31" ;
+    
+:meta-what
+   rdfs:label "h32" ; 
+   
+:meta-when
+   rdfs:label "h33" ;
+    
+:meta-where
+   rdfs:label "h34" ; 
+
+:support-erc
+   rdfs:label "h20" ;
+
+:support-who
+   rdfs:label "h21" ;
+    
+:support-what
+   rdfs:label "h22" ;
+
+:support-when
+   rdfs:label "h23" ; 
+   
+ :depositor-erc
+   rdfs:label "h40" ;  
+
+:depositor-who
+   rdfs:label "h41" ;
+
+:depositor-what
+   rdfs:label "h42" ;
+
+:depositor-when
+   rdfs:label "h43" ;
+
+:depositor-where
+   rdfs:label "h"44 ;
+   
+ :tba     
